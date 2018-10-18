@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "demo_cpp", "demo_cpp.vcxproj", "{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}"
+	ProjectSection(ProjectDependencies) = postProject
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21} = {7846730F-272D-4F5A-A9AD-4A3BCA146E21}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "jsoncpp", "..\jsoncpp\jsoncpp.vcxproj", "{7846730F-272D-4F5A-A9AD-4A3BCA146E21}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Debug|Win32.Build.0 = Debug|Win32
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Debug|x64.ActiveCfg = Debug|Win32
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Release|Win32.ActiveCfg = Release|Win32
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Release|Win32.Build.0 = Release|Win32
+		{9D214DBE-41A0-4697-8C5B-6E00B00A6C77}.Release|x64.ActiveCfg = Release|Win32
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Debug|Win32.ActiveCfg = Debug|Win32
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Debug|Win32.Build.0 = Debug|Win32
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Debug|x64.ActiveCfg = Debug|x64
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Debug|x64.Build.0 = Debug|x64
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Release|Win32.ActiveCfg = Release|Win32
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Release|Win32.Build.0 = Release|Win32
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Release|x64.ActiveCfg = Release|x64
+		{7846730F-272D-4F5A-A9AD-4A3BCA146E21}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
